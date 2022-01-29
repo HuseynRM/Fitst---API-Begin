@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WEB_API___First.Data;
+using WEB_API___First.Models;
 
 namespace WEB_API___First.Controllers
 {
@@ -10,19 +13,30 @@ namespace WEB_API___First.Controllers
     [Route("api/[controller]")]
     public class StudentController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly AppDbContext _context;
+        public StudentController(AppDbContext context)
         {
-            return Ok();
+            _context = context;
+        }
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            return Ok(await _context.Students.ToListAsync());
         }
         [HttpGet]
         [Route("{id}")]
-        public IActionResult Get(int? id)
+        public async Task<IActionResult> Get(int? id)
         {
-            return Ok(id);
+            if (id == null) return BadRequest();
+
+            Student student = await _context.Students.FirstOrDefaultAsync(s => s.Id == id && s.Isdeleted == false);
+
+            if (student == null) return NotFound();
+            
+            return Ok(student);
         }
         [HttpPost]
-        public IActionResult Post()
+        public async Task<IActionResult> Post()
         {
             return Ok("Post !!!");
         }
