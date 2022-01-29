@@ -18,3 +18,36 @@ C:\Users\ASUS\OneDrive\Рабочий стол\asp.Net\VesperBAck\WEB API - Firs
 C:\Users\ASUS\OneDrive\Рабочий стол\asp.Net\VesperBAck\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.dll
 C:\Users\ASUS\OneDrive\Рабочий стол\asp.Net\VesperBAck\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.pdb
 C:\Users\ASUS\OneDrive\Рабочий стол\asp.Net\VesperBAck\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.exe
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.deps.json
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.runtimeconfig.dev.json
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\staticwebassets\WEB API - First.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\staticwebassets\WEB API - First.StaticWebAssets.xml
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\scopedcss\bundle\WEB API - First.styles.css
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.dll
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.pdb
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\obj\Debug\netcoreapp3.1\WEB API - First.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Рабочий стол\Fitst---API-Begin\WEB API - First\WEB API - First\bin\Debug\netcoreapp3.1\WEB API - First.xml
