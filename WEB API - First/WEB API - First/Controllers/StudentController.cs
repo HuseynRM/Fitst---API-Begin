@@ -15,5 +15,28 @@ namespace WEB_API___First.Controllers
         {
             return Ok();
         }
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Get(int? id)
+        {
+            return Ok(id);
+        }
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok("Post !!!");
+        }
+
+        [HttpPut]
+        public IActionResult Put()
+        {
+            return Ok("Put !!!");
+        }
+        [HttpDelete]
+        public IActionResult Delete()
+        {
+            return NoContent();
+        }
+        
     }
 }
