@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using WEB_API___First.Data;
@@ -36,19 +37,56 @@ namespace WEB_API___First.Controllers
             return Ok(student);
         }
         [HttpPost]
-        public async Task<IActionResult> Post()
+        public async Task<IActionResult> Post(Student student)
         {
-            return Ok("Post !!!");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            student.CreatedAt = DateTime.UtcNow.AddHours(+4);
+            student.CreatedBy = "System";
+
+            await _context.Students.AddAsync(student);
+            await _context.SaveChangesAsync();
+            return Ok(student);
         }
 
         [HttpPut]
-        public IActionResult Put()
+        [Route("{id}")]
+        public async Task<IActionResult> Put(int? id , Student student)
         {
-            return Ok("Put !!!");
+            if (!ModelState.IsValid) return BadRequest();
+
+            if (id == null) return BadRequest();
+
+            Student Dbstudent = await _context.Students.FirstOrDefaultAsync(s => s.Id == id && s.Isdeleted == false);
+
+            if (Dbstudent == null) return NotFound();
+            Dbstudent.Name = student.Name;
+            Dbstudent.Surname = student.Surname;
+            Dbstudent.UpdateAt = DateTime.UtcNow.AddHours(+4);
+            Dbstudent.UpdateBy = "SystemUPD";
+
+            await _context.SaveChangesAsync();
+
+            return Ok();
         }
         [HttpDelete]
-        public IActionResult Delete()
+        [Route("{id}")]
+        public async  Task<IActionResult> Delete(int? id) 
         {
+            if (id == null) return BadRequest();
+
+            Student student = await _context.Students.FirstOrDefaultAsync(s => s.Id == id && s.Isdeleted == false);
+
+            if (student == null) return NotFound();
+
+            student.Isdeleted = true;
+            student.DeletedAt = DateTime.UtcNow.AddHours(+4);
+            student.DeletedBy = "Sytemdeleted";
+
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
         
