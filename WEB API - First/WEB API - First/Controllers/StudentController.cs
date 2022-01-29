@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WEB_API___First.Data;
 using WEB_API___First.Models;
+using WEB_API___First.DTOS.Students;
 
 namespace WEB_API___First.Controllers
 {
@@ -14,6 +15,7 @@ namespace WEB_API___First.Controllers
     [Route("api/[controller]")]
     public class StudentController : ControllerBase
     {
+
         private readonly AppDbContext _context;
         public StudentController(AppDbContext context)
         {
@@ -22,7 +24,17 @@ namespace WEB_API___First.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await _context.Students.ToListAsync());
+            List<StudentForListDto> studentForListDtos = await _context.Students.Where(s => s.Isdeleted == false)
+                .Select(
+                x => new StudentForListDto
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Surname = x.Surname
+                }
+                ).ToListAsync();
+
+            return Ok(studentForListDtos);
         }
         [HttpGet]
         [Route("{id}")]
